@@ -21,6 +21,11 @@ A branch is a ref(ference) to a commit. When HEAD points to a branch, we say we'
 ## What's HEAD?
 
 Head is a ref(ference) to the "current" branch (or sometimes a commit... more on that later). Git commands like `status`, `log`, and `branch` use HEAD. `git checkout` updates HEAD to ref(er) to a different branch.
+=======
+- git log: Show history of project commits
+- git stash: Stash changes from working directory
+- git stash list: List stashes
+- git stash pop: Apply stashed changes to working directory
 
 ## Commit messages
 
